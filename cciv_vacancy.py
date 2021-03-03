@@ -160,7 +160,7 @@ def ifttt(section):
 
     def email_alert(first, second, third):
         report = {"value1": first, "value2": second, "value3": third}
-        requests.post("https://maker.ifttt.com/trigger/ilovecake/with/key/hG1wtP7p2xyFzls05J9y06xUE3nIvNpgY50KHCZ9vcT",
+        requests.post("https://maker.ifttt.com/trigger/cciv_vacancy/with/key/hG1wtP7p2xyFzls05J9y06xUE3nIvNpgY50KHCZ9vcT",
                       data=report)
         print("..Request sent to IFTTT. Please check associated email")
 
